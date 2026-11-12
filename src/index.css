@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --color-alabaster: #F9F8F6;
+  --color-parchment: #EFECE6;
+  --color-obsidian: #16181A;
+  --color-oxblood: #481216;
+  --color-oxblood-dark: #320B0F;
+  --color-taupe: #B8A38E;
+  --color-charcoal: #646460;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #F9F8F6;
+    color: #16181A;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Custom hairline borders and bespoke luxury micro-interactions */
+.hairline-b {
+  border-bottom: 1px solid rgba(184, 163, 142, 0.25);
+}
+
+.hairline-t {
+  border-top: 1px solid rgba(184, 163, 142, 0.25);
+}
+
+.hairline-r {
+  border-right: 1px solid rgba(184, 163, 142, 0.25);
+}
+
+.hairline-l {
+  border-left: 1px solid rgba(184, 163, 142, 0.25);
+}
+
+.hairline-all {
+  border: 1px solid rgba(184, 163, 142, 0.25);
+}
