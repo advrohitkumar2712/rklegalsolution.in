@@ -8,13 +8,13 @@ interface FirmProfileProps {
 }
 
 export const FirmProfile: React.FC<FirmProfileProps> = ({ onScheduleClick }) => {
-  const deskImage = "/public/assets/aistudio/IMG-20261110-WA0009_d6fa39da.jpg";
+  const deskImage = "/Law2.jpg";
 
   return (
     <section id="profile" className="py-20 lg:py-28 bg-[#F9F8F6] border-b border-[#B8A38E]/25">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center">
-          {/* Left Column: Image with clean caption (5 cols) */}
+          {/* Left Column: Image with clean caption */}
           <div className="lg:col-span-5 relative">
             <div className="p-2 sm:p-3 bg-[#EFECE6] border border-[#B8A38E]/30">
               <div className="relative overflow-hidden aspect-4/3 bg-[#16181A]">
@@ -45,7 +45,7 @@ export const FirmProfile: React.FC<FirmProfileProps> = ({ onScheduleClick }) => 
             </div>
           </div>
 
-          {/* Right Column: Narrative & Credentials (7 cols) */}
+          {/* Right Column: Narrative & Credentials */}
           <div className="lg:col-span-7 flex flex-col justify-center">
             <div className="flex items-center gap-2 mb-3">
               <Scale className="w-4 h-4 text-[#481216]" />
