@@ -8,7 +8,7 @@ interface HeroProps {
 }
 
 export const Hero: React.FC<HeroProps> = ({ onInitiateClick }) => {
-  const heroImage = "/public/assets/aistudio/IMG-20261110-WA0011_b680ec2c.jpg";
+  const heroImage = "/Law.jpg";
 
   return (
     <section className="relative pt-10 pb-16 lg:pt-14 lg:pb-22 border-b border-[#B8A38E]/25 bg-[#F9F8F6]">
@@ -40,7 +40,7 @@ export const Hero: React.FC<HeroProps> = ({ onInitiateClick }) => {
               Headed by <strong className="font-semibold text-[#16181A]">{FIRM_DETAILS.owner}</strong>, providing dedicated counsel and litigation advocacy across <strong className="text-[#16181A] font-medium">Civil Court Ranchi, Jharkhand High Court (Dhurwa), Patna High Court, Delhi High Court, and the Supreme Court of India</strong>.
             </p>
 
-            {/* Core Practice Highlights Strip (Includes Service Matters, NO RTI) */}
+            {/* Core Practice Highlights Strip */}
             <div className="mb-8 p-4 bg-[#EFECE6]/70 border border-[#B8A38E]/30">
               <p className="text-[10px] font-sans uppercase font-bold tracking-widest text-[#481216] mb-2">
                 DEALING IN ALL LEGAL MATTERS:
@@ -128,7 +128,7 @@ export const Hero: React.FC<HeroProps> = ({ onInitiateClick }) => {
             </div>
           </div>
 
-          {/* Right Visual Column (5 cols) with Provided Image */}
+          {/* Right Visual Column with /Law.jpg */}
           <div className="lg:col-span-5 relative">
             <div className="p-2 sm:p-3 bg-[#EFECE6] border border-[#B8A38E]/30">
               <div className="relative overflow-hidden aspect-4/3 bg-[#16181A]">
@@ -167,3 +167,4 @@ export const Hero: React.FC<HeroProps> = ({ onInitiateClick }) => {
     </section>
   );
 };
+     
